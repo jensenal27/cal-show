@@ -1,0 +1,125 @@
+.rowsdiv{
+    justify-self: center;
+    width: 100%;
+    height: 100%;
+}
+.row{
+    justify-self: end;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+    background-color: white;
+}
+.column{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+.cell{
+    color: black;
+    margin: 1px;
+    font-family: 'muli';
+}
+.disabled,
+.dis-selected,
+.dis-available{
+    color: #808e9b;
+}
+.cell {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: white;
+    transition: 0.25s ease-out;
+    display: grid;
+    pointer-events: none;
+}
+.selected,
+.cell:active {
+    transition: 0.5s ease-out;
+    pointer-events: initial;
+}
+.dis-selected,
+.dis-selected:active,
+.disabled:active {
+    background-color: #808e9b;
+    transition: 0.5s ease-out;
+}
+.disabled{
+    pointer-events: none;
+}
+.available,
+.dis-available,
+.cur-available{
+    transition: 0.5s ease-out;
+    pointer-events: initial;
+}
+.dis-available::after,
+.available::after,
+.selected::after,
+.cur-available::after{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    transform: translate(20px, -15px);
+    grid-row: 1/2;
+    grid-column: 1/2;
+    justify-self: center;
+    align-self: center;
+    background-color: #0fbcf9;
+}
+.cell:active .number,
+.selected .number,
+.dis-selected .number,
+.current .number,
+.cur-available .number{
+    visibility: hidden;
+}
+.cell .number{
+    justify-self: center;
+    align-self: center;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    font-weight: bold;
+    font-size: 14px;
+}
+.cell .bg {
+    font-weight: 700;
+    line-height: 1;
+    color: white;
+    background-color: #0fbcf9;
+    border-radius: 50%;
+    opacity: 0;
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    transition: 0.25s ease-out;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    align-items: center;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.current .bg,
+.cur-available .bg{
+    background-color: #E8E8E8;
+    color: black;
+}
+.cell:active .bg,
+.selected .bg,
+.current .bg,
+.cur-available .bg  {
+    opacity: 1;
+    transition: 0.5s ease-in;
+}
+.disabled:active .bg,
+.dis-selected .bg,
+.dis-selected:active .bg {
+    opacity: 1;
+    transition: 0.5s ease-in;
+}
