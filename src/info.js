@@ -55,7 +55,7 @@ export const eventData = [
       Image: './aiony-haust-3TLl_97HNJo-unsplash.jpg'
     },
     {
-      Id: 3,
+      Id: 6,
       Title: 'Event Title 6',
       POC: 'Event Contact',
       DateAndTime: '2020-06-15T18:00:00Z',

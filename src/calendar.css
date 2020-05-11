@@ -21,7 +21,6 @@
 .cell{
     color: black;
     margin: 1px;
-    font-family: 'muli';
 }
 .disabled,
 .dis-selected,
@@ -84,11 +83,9 @@
     align-self: center;
     grid-row: 1/2;
     grid-column: 1/2;
-    font-weight: bold;
     font-size: 14px;
 }
 .cell .bg {
-    font-weight: 700;
     line-height: 1;
     color: white;
     background-color: #0fbcf9;

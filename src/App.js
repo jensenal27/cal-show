@@ -6,6 +6,7 @@ import Calendar from './calendar';
 import Months from './months';
 import DaysOfWeek from './daysofweek';
 import Slider from './slider';
+import Upcoming from './upcoming';
 import {eventData} from './info.js';
 
 function App() {
@@ -123,14 +124,23 @@ function App() {
 
   return (
     <div className="App">
+      <div className = 'header'></div>
       <div className = 'main'>
         <Slider modals={modals} selectedDate={selectedDate} modalDate={modalDate} currentDate={currentDate} setSelectedDate={setSelectedDate} nextModal={nextModal} prevModal={prevModal}/>
       </div>
       <div className = 'footer'>
 
         <div className = 'left'>
-          <div className = 'left-day-num'>{moment(selectedDate).format('DD')}</div>
-          <div className = 'left-day'>{moment(selectedDate).format('dddd')}</div>
+          <div className = 'left-top'>
+            <div className = 'left-day-num'>{moment(selectedDate).format('DD')}</div>
+            <div className = 'left-day'>{moment(selectedDate).format('dddd')}</div>
+          </div>
+          <div className = 'left-bottom'>
+            <div className = 'bar-left'></div>
+            <div className = 'left-bottom-title'>Current Events</div>
+            <div className = 'bar-right'></div>
+            <Upcoming events={events}/>
+          </div>
         </div>
         
         <div className = 'calendar'>
