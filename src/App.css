@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: 7% 38% 57%;
+  grid-template-rows: 7% 39% 4% 50%;
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
@@ -96,16 +96,37 @@
   background-color: #0fbcf9;
   color: white;
 }
-.footer{
+.line{
   grid-row: 3/4;
+  width: 40%;
+  justify-self: center;
+  background-color: white;
+  height: 2px;
+}
+.line::before,
+.line::after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  float: left;
+  margin-top: -4px;
+}
+.line::after{
+  float: right;
+}
+.footer{
+  grid-row: 4/5;
   display: grid;
   justify-self: center;
   border-radius: 34px;
   background-color: white;
   width: 60%;
-  height: 85%;
+  height: 95%;
   grid-template-columns: 33% 66%;
   grid-template-rows: 1fr 1fr 1fr auto;
+  overflow: hidden;
 }
 .left{
   grid-column: 1/2;

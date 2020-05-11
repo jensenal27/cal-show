@@ -128,6 +128,7 @@ function App() {
       <div className = 'main'>
         <Slider modals={modals} selectedDate={selectedDate} modalDate={modalDate} currentDate={currentDate} setSelectedDate={setSelectedDate} nextModal={nextModal} prevModal={prevModal}/>
       </div>
+      <div className = 'line'></div>
       <div className = 'footer'>
 
         <div className = 'left'>
