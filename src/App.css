@@ -1,9 +1,9 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-rows: 7% 39% 4% 50%;
   height: 100vh;
   width: 100vw;
+  grid-template-rows: 7% 39% 4% 50%;
   overflow-x: hidden;
   background-color: #202e3b;
   font-family: 'oswald';
@@ -24,6 +24,7 @@
 }
 .main{
   grid-row: 2/3;
+  min-height: 320px;
   width: 60%;
   justify-self: center;
   display: flex;
@@ -124,6 +125,7 @@
   background-color: white;
   width: 60%;
   height: 95%;
+  min-height: 400px;
   grid-template-columns: 33% 66%;
   grid-template-rows: 1fr 1fr 1fr auto;
   overflow: hidden;

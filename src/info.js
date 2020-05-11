@@ -8,7 +8,7 @@ export const eventData = [
       Room: 'Location',
       EventType: 'EventTypeOne',
       Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      Image: './aiony-haust-3TLl_97HNJo-unsplash.jpg'
+      Image: './03.jpg'
     },
     {
       Id: 2,
@@ -19,7 +19,7 @@ export const eventData = [
       Room: 'Location',
       EventType: 'EventTypeTwo',
       Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      Image: './philip-martin-5aGUyCW_PJw-unsplash.jpg'
+      Image: './02.jpg'
     },
     {
       Id: 3,
@@ -30,7 +30,7 @@ export const eventData = [
       Room: 'Location',
       EventType: 'EventTypeTwo',
       Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      Image: './philip-martin-5aGUyCW_PJw-unsplash.jpg'
+      Image: './04.jpg'
     },
     {
       Id: 4,
@@ -41,7 +41,7 @@ export const eventData = [
       Room: 'Location',
       EventType: 'EventTypeTwo',
       Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      Image: './aiony-haust-3TLl_97HNJo-unsplash.jpg'
+      Image: './05.jpg'
     },
     {
       Id: 5,
@@ -52,7 +52,7 @@ export const eventData = [
       Room: 'Location',
       EventType: 'EventTypeThree',
       Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      Image: './aiony-haust-3TLl_97HNJo-unsplash.jpg'
+      Image: './01.jpg'
     },
     {
       Id: 6,
@@ -63,6 +63,6 @@ export const eventData = [
       Room: 'Location',
       EventType: 'EventTypeTwo',
       Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      Image: './philip-martin-5aGUyCW_PJw-unsplash.jpg'
+      Image: './06.jpg'
     }
   ]
