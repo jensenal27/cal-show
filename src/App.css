@@ -3,7 +3,7 @@
   display: grid;
   height: 100vh;
   width: 100vw;
-  grid-template-rows: 60px 320px 34px 480px;
+  grid-template-rows: 60px 320px 34px 440px;
   overflow-x: hidden;
   background-color: #202e3b;
   font-family: 'oswald';
